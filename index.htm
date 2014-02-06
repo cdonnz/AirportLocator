@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Airports By Nautical Distance</title>
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+  <script type="text/javascript" src="js/data.js"></script>
+  <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3X3ZlYiF2KWsq6dBnnzo-RbX36oBprIk&sensor=true">
+  </script>  
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <div id="content">
+    <h1>Airports By Nautical Distance</h1>
+    <form>
+      <h2>Source Address:</h2>
+      <div class="searchfield">
+        <input type="text" name="currency" class="biginput" id="autocomplete1" autocomplete="off">
+      </div>
+      <h2>Destination Address:</h2>
+      <div class="searchfield">
+        <input type="text" name="currency" class="biginput" id="autocomplete2" autocomplete="off">
+      </div>
+    </form>
+    <div id="map-canvas"/></div>
+
+
+
+
+
+    <div id="info">
+      <div class="results outputcontent1"></div>
+      <div class="results outputcontent2"></div>
+      <div class="results nauticalMiles"></div>
+    </div>
+
+  </div>
+</body>
+</html>
